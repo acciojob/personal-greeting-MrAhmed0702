@@ -13,7 +13,7 @@ const App = () => {
         type="text"
         onChange={(e) => setName(e.target.value)}
       />
-          {name ? <p>Hello {name}</p> : null}
+          {name ? <p>Hello {name}!</p> : null}
     </div>
   )
 }
